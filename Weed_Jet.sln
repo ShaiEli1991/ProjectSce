@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weed_Jet", "Weed_Jet\Weed_Jet.csproj", "{70D33571-6882-469A-BAB5-3DE2CFBD7FC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70D33571-6882-469A-BAB5-3DE2CFBD7FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D33571-6882-469A-BAB5-3DE2CFBD7FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D33571-6882-469A-BAB5-3DE2CFBD7FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D33571-6882-469A-BAB5-3DE2CFBD7FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

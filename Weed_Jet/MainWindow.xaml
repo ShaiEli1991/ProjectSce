@@ -1,0 +1,47 @@
+﻿<Window x:Class="Weed_Jet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Border Padding="10">
+        <StackPanel>
+            <!-- Title -->
+            <Grid Height="114">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Margin="50 30 50 30" Grid.Column="1" Text="Welcome To WeedJet" FontSize="40" />
+            </Grid>
+            <!-- User Name && Password -->
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Margin="0 0 0 0" Text="User Name:" />
+                    <TextBox Padding="2" Grid.ColumnSpan="2" Margin="89,0,100,10" />
+                </Grid>
+            </StackPanel>
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Margin="0 0 0 0" Text="Password:" />
+                    <PasswordBox Padding="2" Grid.ColumnSpan="2" Background="#eee" Margin="89,0,100,0" />
+                </Grid>
+            </StackPanel>
+            <!--Buttons-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Margin="88 20 50 0" Grid.Column="0" Content="LOGIN" FontSize="20" Click="Button_Click" />
+                <Button Margin="50 20 100 0" Grid.Column="1" Content="Register" FontSize="20" />
+            </Grid>
+        </StackPanel>
+    </Border>
+
+</Window>
